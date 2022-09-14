@@ -12,6 +12,19 @@
   align-items: center;
 }
 
+.apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.app {
+  margin: 0 40px;
+}
+
 .footer {
   display: flex;
   flex: 1;

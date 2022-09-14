@@ -17,6 +17,50 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Image src="/logo.svg" alt="Vercel Logo" width={400} height={400} />
+        <div className={styles.apps}>
+          <div className={styles.app}>
+            <a
+              href="https://farapps.farcase.xyz/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <Image
+                src="/farapps.svg"
+                alt="Farapps Logo"
+                width={300}
+                height={150}
+              />
+            </a>
+          </div>
+          <div className={styles.app}>
+            <a
+              href="https://castalytics.farcase.xyz/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <Image
+                src="/castalytics.svg"
+                alt="Castlytics Logo"
+                width={300}
+                height={150}
+              />
+            </a>
+          </div>
+          <div className={styles.app}>
+            <a
+              href="https://essayify.farcase.xyz/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <Image
+                src="/essayify.svg"
+                alt="Essayify Logo"
+                width={300}
+                height={150}
+              />
+            </a>
+          </div>
+        </div>
       </main>
     </div>
   );
