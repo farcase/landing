@@ -1,3 +1,3 @@
 # Farcase (landing page)
 
-A sufficiently decentralized community of builders.
+A suite of Farcaster applications and tools to improve user experience.
